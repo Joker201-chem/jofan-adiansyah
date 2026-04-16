@@ -19,6 +19,11 @@
   --glass:rgba(255,255,255,0.05);
 }
 
+img{
+  max-width:100%;
+  height:auto;
+}
+  
 /* BODY */
 body {
   font-family:'Poppins',sans-serif;
@@ -32,7 +37,7 @@ body {
 .container{
   max-width:1200px;
   margin:auto;
-  padding:0 40px;
+  padding:0 20px;
 }
 
 /* NAVBAR */
@@ -194,10 +199,10 @@ nav a:hover::after{
 
 .hero-content{
   max-width:700px;
+  padding: 0 20px;
   margin:auto;
   position:relative;
-  text-align:left;
-  margin-left:80px;
+  text-align: center;
   z-index:10;
 }
 
