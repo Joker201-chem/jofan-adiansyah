@@ -861,3 +861,43 @@ footer{
     height:200px;
   }
 }
+
+@media(max-width:768px){
+  .nav-right{
+    display:none;
+  }
+}
+
+@media(max-width:768px){
+  .hero{
+    height:80vh;
+    background-position:center;
+  }
+}
+
+@media(max-width:768px){
+  .tools-grid{
+    gap:30px;
+  }
+
+  .tool-item img{
+    width:60px;
+    height:60px;
+  }
+}
+
+@media(max-width:768px){
+  .contact-container{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:768px){
+  section{
+    padding:80px 0;
+  }
+
+  .section{
+    padding:80px 0;
+  }
+}
